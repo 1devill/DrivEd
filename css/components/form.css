@@ -1,0 +1,140 @@
+.form-control {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input,
+.select,
+.textarea {
+  max-width: 100%;
+  width: 100%;
+  border: 0 none;
+  padding: 0 25px;
+  background: #fff;
+  color: #666;
+  margin: 0;
+  font-size: inherit;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: #1e87f0;
+  -webkit-box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+          box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+}
+
+.input:disabled,
+.select:disabled,
+.textarea:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #e5e5e5;
+}
+/*
+ * Placeholder
+ */
+
+.input::-webkit-input-placeholder {
+  color: #999;
+}
+
+.input::-moz-placeholder {
+  color: #999;
+}
+
+.input:-ms-input-placeholder {
+  color: #999;
+}
+
+.input::-ms-input-placeholder {
+  color: #999;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+.textarea::-moz-placeholder {
+  color: #999;
+}
+
+.textarea:-ms-input-placeholder {
+  color: #999;
+}
+
+.textarea::-ms-input-placeholder {
+  color: #999;
+}
+
+.textarea::placeholder {
+  color: #999;
+}
+
+/* Form icon
+ ========================================================================== */
+
+.form-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #999;
+}
+
+.form-icon:hover {
+  color: #666;
+}
+
+.form-icon:not(.form-icon-flip)~.input {
+  padding-left: 40px !important;
+}
+
+.form-icon-flip {
+  right: 0;
+  left: auto;
+}
+
+.form-icon-flip~.input {
+  padding-right: 40px !important
+}
+
+
+/* Style modifier (`input`, `select` and `textarea`)
+ ========================================================================== */
+
+ /*
+ * Error
+ */
+ .form-danger,
+ .form-danger:focus {
+   color: #f0506e;
+   border-color: #f0506e;
+ }
+ /*
+  * Success
+  */
+ .form-success,
+ .form-success:focus {
+   color: #32d296;
+   border-color: #32d296;
+ }

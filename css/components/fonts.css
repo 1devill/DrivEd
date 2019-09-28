@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../../fonts/manrope-regular.otf);
+}
+
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url(../../fonts/manrope-bold.otf);
+}
+
+@font-face {
+    font-family: 'Samsung-Sharp';
+    src: url(../../fonts/SamsungSharpSans.woff);
+}
+
+@font-face {
+    font-family: 'Samsung-Sharp-Bold';
+    src: url(../../fonts/SamsungSharpSansBoldwoff);
+}

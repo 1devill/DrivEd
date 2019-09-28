@@ -1,0 +1,13 @@
+OVERALL time - approximately ~ 14 - 15 hours
+HTML structure - 2 hours 35 min
+BASE CSS Stylization - 1 hour 50 min
+Header - 1 hour 20 min
+Section 1 Hero - 40 min
+Section 2 Drived - 30 min
+Section 3 For whom - 40 min
+Section 4 Features - 2 hours
+Section 5 Benefits - 2 hours
+Section 6 Partners - 25 min
+Section 7 Request - 1 hour 10 min
+Footer - 40 min
+Media and other maraphet - 2 hours 20 min
