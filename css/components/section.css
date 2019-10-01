@@ -873,7 +873,7 @@ h3.section-title, h3.section-subtitle{
   }
   
   .section-request .section-image:not(:first-child) {
-    top: 20%;
+    top: 25%;
     left: 25%;
     bottom: 10%;
     right: 0;
@@ -890,12 +890,6 @@ h3.section-title, h3.section-subtitle{
     padding-top: 60px;
     padding-bottom: 450px;
   }
-}
-
-@media(max-width: 960px) {
-  .section-request {
-    padding-top: 40px;
-  }
   .section-request .section-image:first-child {
     top: 60%;
     left: 10%;
@@ -903,7 +897,26 @@ h3.section-title, h3.section-subtitle{
     right: 10%;
   }
   .section-request .section-image:not(:first-child) {
-    top: 20%;
+    top: 30%;
+    left: 15%;
+    bottom: 5%;
+    right: 0;
+  }
+}
+
+@media(max-width: 960px) {
+  .section-request {
+    padding-top: 40px;
+    padding-bottom: 400px;
+  }
+  .section-request .section-image:first-child {
+    top: 70%;
+    left: 10%;
+    bottom: 5%;
+    right: 10%;
+  }
+  .section-request .section-image:not(:first-child) {
+    top: 40%;
     left: 15%;
     bottom: 5%;
     right: 0;
@@ -911,6 +924,9 @@ h3.section-title, h3.section-subtitle{
 }
 
 @media(max-width: 640px) {
+  .section-request {
+    padding-bottom: 350px;
+  }
   .section-request .input::-webkit-input-placeholder, .section-request .textarea::-webkit-input-placeholder {
     font-size: 16px;
     line-height: 24px;
@@ -932,9 +948,53 @@ h3.section-title, h3.section-subtitle{
     line-height: 24px;
   }
   .section-request .section-image:first-child {
-    top: 60%;
+    top: 70%;
     left: 0;
     bottom: 0;
     right: 0;
+  }
+  .section-request .section-image:last-child {
+    top: 55%;
+    left: 15%;
+    bottom: 5%;
+    right: 0;
+  }
+}
+
+@media(max-width: 480px) {
+  .section-request {
+    padding-bottom: 280px;
+  }
+  .section-request .section-image:first-child {
+    top: 75%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .section-request .section-image:last-child {
+    top: 65%;
+    left: 15%;
+    bottom: 5%;
+    right: 0;
+  }
+  .section-request .input::-webkit-input-placeholder, .section-request .textarea::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .section-request .input::-moz-placeholder, .section-request .textarea::-moz-placeholder {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .section-request .input:-ms-input-placeholder, .section-request .textarea:-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .section-request .input::-ms-input-placeholder, .section-request .textarea::-ms-input-placeholder {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .section-request .input::placeholder, .section-request .textarea::placeholder {
+    font-size: 14px;
+    line-height: 24px;
   }
 }
